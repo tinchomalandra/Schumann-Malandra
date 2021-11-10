@@ -47,10 +47,8 @@ a:hover{
 /* MAIN NOSOTROS */
 
 main{
-    grid-area: main;
-
     display: grid;
-    grid-template-areas:
+    grid-template-areas: 
     "section aside";
 }
 
@@ -58,30 +56,12 @@ main section{
     grid-area: section;
 }
 
-main aside{
-    grid-area: aside;
-}
-
-main section article{
-    max-width: 75%;
-}
-
-main section article h1{
-    font-family: 'Bebas Neue', cursive;
-}
-
-main section article p{
+main section article p ul li{
     font-family: 'Roboto', sans-serif;
 }
 
 main aside{
     grid-area: aside;
-}
-
-main aside div img{
-    display: flex;
-    align-items: center;
-    justify-content: right;
 }
 
 /* ----------------------- */
