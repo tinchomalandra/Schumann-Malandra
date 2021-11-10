@@ -85,3 +85,10 @@ footer div ul li a{
     color: black;
     font-family: 'Roboto', sans-serif;
 }
+
+/* FORMULARIO GOOGLE EN CONTACTO */
+
+main .form-google{
+    display: flex;
+    justify-content: center;
+}

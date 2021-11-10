@@ -54,10 +54,25 @@ main{
 
 main section{
     grid-area: section;
+    height: 500px;
 }
 
-main section article p ul li{
+main section article{
+    display: flex;
+    max-width: 75%;
+    height: auto;
+    flex-direction: column;
+}
+
+main section article div h1{
+    font-family: 'Bebas Neue', cursive;
+    color: orangered;
+    font-size: xxx-large;
+}
+
+main section article div ul{
     font-family: 'Roboto', sans-serif;
+    font-size: x-large;
 }
 
 main aside{
