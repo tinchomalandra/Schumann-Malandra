@@ -58,7 +58,7 @@ main section{
     grid-area: section;
 }
 
-main area{
+main aside{
     grid-area: aside;
 }
 
