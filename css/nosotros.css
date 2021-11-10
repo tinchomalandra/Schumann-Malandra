@@ -44,20 +44,34 @@ a:hover{
 
 /* ----------------------- */
 
-/* MAIN */
+/* MAIN NOSOTROS */
 
-main div h1{
-    font-family: 'Bebas Neue', cursive;
-    color: orangered;
+main{
+    grid-area: main;
+
+    display: grid;
+    grid-template-areas:
+    "section aside";
 }
 
-main div h2{
+main section{
+    grid-area: section;
+}
+
+main area{
+    grid-area: aside;
+}
+
+main section article h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+main section article p{
     font-family: 'Roboto', sans-serif;
 }
 
-main div img{
-    max-width: 100%;
-    height: auto;
+main aside{
+    grid-area: aside;
 }
 
 /* ----------------------- */
